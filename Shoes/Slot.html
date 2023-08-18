@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Class: Shoes::Slot
+  
+    &mdash; Documentation by YARD 0.9.34
+  
+</title>
+
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+
+  <link rel="stylesheet" href="../css/common.css" type="text/css" />
+
+<script type="text/javascript">
+  pathId = "Shoes::Slot";
+  relpath = '../';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="../js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="../class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="../_index.html">Index (S)</a> &raquo;
+    <span class='title'><span class='object_link'><a href="../Shoes.html" title="Shoes (module)">Shoes</a></span></span>
+     &raquo; 
+    <span class="title">Slot</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="docpages_list_link"
+        href="../docpages_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><h1>Class: Shoes::Slot
+  
+  
+  
+</h1>
+<div class="box_info">
+  
+  <dl>
+    <dt>Inherits:</dt>
+    <dd>
+      <span class="inheritName"><span class='object_link'><a href="Widget.html" title="Shoes::Widget (class)">Widget</a></span></span>
+      
+        <ul class="fullTree">
+          <li>Object</li>
+          
+            <li class="next"><span class='object_link'><a href="Linkable.html" title="Shoes::Linkable (class)">Linkable</a></span></li>
+          
+            <li class="next"><span class='object_link'><a href="Widget.html" title="Shoes::Widget (class)">Widget</a></span></li>
+          
+            <li class="next">Shoes::Slot</li>
+          
+        </ul>
+        <a href="#" class="inheritanceTree">show all</a>
+      
+    </dd>
+  </dl>
+  
+
+  
+  
+  
+  
+  
+
+  
+
+  
+  <dl>
+    <dt>Defined in:</dt>
+    <dd>lacci/lib/shoes/widgets/slot.rb</dd>
+  </dl>
+  
+</div>
+
+<div id="subclasses">
+  <h2>Direct Known Subclasses</h2>
+  <p class="children"><span class='object_link'><a href="Flow.html" title="Shoes::Flow (class)">Flow</a></span>, <span class='object_link'><a href="Shape.html" title="Shoes::Shape (class)">Shape</a></span>, <span class='object_link'><a href="Stack.html" title="Shoes::Stack (class)">Stack</a></span></p>
+</div>
+
+
+
+  <h2>Constant Summary</h2>
+  
+  <h3 class="inherited">Constants included
+     from <span class='object_link'><a href="Log.html" title="Shoes::Log (module)">Log</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="Log.html#DEFAULT_COMPONENT-constant" title="Shoes::Log::DEFAULT_COMPONENT (constant)">Log::DEFAULT_COMPONENT</a></span>, <span class='object_link'><a href="Log.html#DEFAULT_DEBUG_LOG_CONFIG-constant" title="Shoes::Log::DEFAULT_DEBUG_LOG_CONFIG (constant)">Log::DEFAULT_DEBUG_LOG_CONFIG</a></span>, <span class='object_link'><a href="Log.html#DEFAULT_LOG_CONFIG-constant" title="Shoes::Log::DEFAULT_LOG_CONFIG (constant)">Log::DEFAULT_LOG_CONFIG</a></span></p>
+
+
+  <h2>Instance Attribute Summary <small><a href="#" class="summary_toggle">collapse</a></small></h2>
+  <ul class="summary">
+    
+      <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#children-instance_method" title="#children (instance method)">#<strong>children</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+    
+      <span class="note title readonly">readonly</span>
+    
+    
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'></div></span>
+  
+</li>
+
+    
+  </ul>
+
+
+
+  
+  
+  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="Widget.html" title="Shoes::Widget (class)">Widget</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="Widget.html#parent-instance_method" title="Shoes::Widget#parent (method)">#parent</a></span></p>
+
+  
+  
+  <h3 class="inherited">Attributes inherited from <span class='object_link'><a href="Linkable.html" title="Shoes::Linkable (class)">Linkable</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="Linkable.html#linkable_id-instance_method" title="Shoes::Linkable#linkable_id (method)">#linkable_id</a></span></p>
+
+
+  
+    <h2>
+      Instance Method Summary
+      <small><a href="#" class="summary_toggle">collapse</a></small>
+    </h2>
+
+    <ul class="summary">
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#add_child-instance_method" title="#add_child (instance method)">#<strong>add_child</strong>(child)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>Do not call directly, use set_parent.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#app-instance_method" title="#app (instance method)">#<strong>app</strong> { ... } &#x21d2; Shoes::App </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>Calling stack.app or flow.app will execute the block with the Shoes::App as self, and with that stack or flow as the current slot.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#append-instance_method" title="#append (instance method)">#<strong>append</strong> { ... } &#x21d2; void </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>Call the block to append new children to a Slot.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#clear-instance_method" title="#clear (instance method)">#<strong>clear</strong> { ... } &#x21d2; void </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>Remove all children from this widget.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#contents-instance_method" title="#contents (instance method)">#<strong>contents</strong>  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>Get a list of child widgets.</p>
+</div></span>
+  
+</li>
+
+      
+        <li class="public ">
+  <span class="summary_signature">
+    
+      <a href="#remove_child-instance_method" title="#remove_child (instance method)">#<strong>remove_child</strong>(child)  &#x21d2; Object </a>
+    
+
+    
+  </span>
+  
+  
+  
+  
+  
+  
+  
+
+  
+    <span class="summary_desc"><div class='inline'><p>Do not call directly, use set_parent.</p>
+</div></span>
+  
+</li>
+
+      
+    </ul>
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 class="inherited">Methods inherited from <span class='object_link'><a href="Widget.html" title="Shoes::Widget (class)">Widget</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="Widget.html#banner-instance_method" title="Shoes::Widget#banner (method)">#banner</a></span>, <span class='object_link'><a href="Widget.html#caption-instance_method" title="Shoes::Widget#caption (method)">#caption</a></span>, <span class='object_link'><a href="Widget.html#destroy-instance_method" title="Shoes::Widget#destroy (method)">#destroy</a></span>, <span class='object_link'><a href="Widget.html#display_properties-class_method" title="Shoes::Widget.display_properties (method)">display_properties</a></span>, <span class='object_link'><a href="Widget.html#display_property-class_method" title="Shoes::Widget.display_property (method)">display_property</a></span>, <span class='object_link'><a href="Widget.html#display_property_name%3F-class_method" title="Shoes::Widget.display_property_name? (method)">display_property_name?</a></span>, <span class='object_link'><a href="Widget.html#display_property_names-class_method" title="Shoes::Widget.display_property_names (method)">display_property_names</a></span>, <span class='object_link'><a href="Widget.html#display_property_values-instance_method" title="Shoes::Widget#display_property_values (method)">#display_property_values</a></span>, <span class='object_link'><a href="Widget.html#download-instance_method" title="Shoes::Widget#download (method)">#download</a></span>, <span class='object_link'><a href="Widget.html#dsl_name-class_method" title="Shoes::Widget.dsl_name (method)">dsl_name</a></span>, <span class='object_link'><a href="Widget.html#hide-instance_method" title="Shoes::Widget#hide (method)">#hide</a></span>, <span class='object_link'><a href="Widget.html#initialize-instance_method" title="Shoes::Widget#initialize (method)">#initialize</a></span>, <span class='object_link'><a href="Widget.html#inscription-instance_method" title="Shoes::Widget#inscription (method)">#inscription</a></span>, <span class='object_link'><a href="Widget.html#inspect-instance_method" title="Shoes::Widget#inspect (method)">#inspect</a></span>, <span class='object_link'><a href="Widget.html#method_missing-instance_method" title="Shoes::Widget#method_missing (method)">#method_missing</a></span>, <span class='object_link'><a href="Widget.html#respond_to_missing%3F-instance_method" title="Shoes::Widget#respond_to_missing? (method)">#respond_to_missing?</a></span>, <span class='object_link'><a href="Widget.html#set_parent-instance_method" title="Shoes::Widget#set_parent (method)">#set_parent</a></span>, <span class='object_link'><a href="Widget.html#show-instance_method" title="Shoes::Widget#show (method)">#show</a></span>, <span class='object_link'><a href="Widget.html#subtitle-instance_method" title="Shoes::Widget#subtitle (method)">#subtitle</a></span>, <span class='object_link'><a href="Widget.html#tagline-instance_method" title="Shoes::Widget#tagline (method)">#tagline</a></span>, <span class='object_link'><a href="Widget.html#title-instance_method" title="Shoes::Widget#title (method)">#title</a></span>, <span class='object_link'><a href="Widget.html#toggle-instance_method" title="Shoes::Widget#toggle (method)">#toggle</a></span>, <span class='object_link'><a href="Widget.html#widget_class_by_name-class_method" title="Shoes::Widget.widget_class_by_name (method)">widget_class_by_name</a></span></p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 class="inherited">Methods included from <span class='object_link'><a href="Colors.html" title="Shoes::Colors (module)">Colors</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="Colors.html#gray-instance_method" title="Shoes::Colors#gray (method)">#gray</a></span>, <span class='object_link'><a href="Colors.html#rgb-instance_method" title="Shoes::Colors#rgb (method)">#rgb</a></span>, <span class='object_link'><a href="Colors.html#to_rgb-instance_method" title="Shoes::Colors#to_rgb (method)">#to_rgb</a></span></p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 class="inherited">Methods included from <span class='object_link'><a href="Log.html" title="Shoes::Log (module)">Log</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="Log.html#configure_logger-class_method" title="Shoes::Log.configure_logger (method)">configure_logger</a></span>, <span class='object_link'><a href="Log.html#log_init-instance_method" title="Shoes::Log#log_init (method)">#log_init</a></span>, <span class='object_link'><a href="Log.html#logger-class_method" title="Shoes::Log.logger (method)">logger</a></span></p>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <h3 class="inherited">Methods inherited from <span class='object_link'><a href="Linkable.html" title="Shoes::Linkable (class)">Linkable</a></span></h3>
+  <p class="inherited"><span class='object_link'><a href="Linkable.html#bind_shoes_event-instance_method" title="Shoes::Linkable#bind_shoes_event (method)">#bind_shoes_event</a></span>, <span class='object_link'><a href="Linkable.html#initialize-instance_method" title="Shoes::Linkable#initialize (method)">#initialize</a></span>, <span class='object_link'><a href="Linkable.html#send_self_event-instance_method" title="Shoes::Linkable#send_self_event (method)">#send_self_event</a></span>, <span class='object_link'><a href="Linkable.html#send_shoes_event-instance_method" title="Shoes::Linkable#send_shoes_event (method)">#send_shoes_event</a></span>, <span class='object_link'><a href="Linkable.html#unsub_shoes_event-instance_method" title="Shoes::Linkable#unsub_shoes_event (method)">#unsub_shoes_event</a></span></p>
+<div id="constructor_details" class="method_details_list">
+  <h2>Constructor Details</h2>
+  
+    <p class="notice">This class inherits a constructor from <span class='object_link'><a href="Widget.html#initialize-instance_method" title="Shoes::Widget#initialize (method)">Shoes::Widget</a></span></p>
+  
+</div>
+<div id="method_missing_details" class="method_details_list">
+  <h2>Dynamic Method Handling</h2>
+  <p class="notice super">
+    This class handles dynamic methods through the <tt>method_missing</tt> method
+    
+      in the class <span class='object_link'><a href="Widget.html#method_missing-instance_method" title="Shoes::Widget#method_missing (method)">Shoes::Widget</a></span>
+    
+  </p>
+  
+</div>
+
+  <div id="instance_attr_details" class="attr_details">
+    <h2>Instance Attribute Details</h2>
+    
+      
+      <span id=""></span>
+      <div class="method_details first">
+  <h3 class="signature first" id="children-instance_method">
+  
+    #<strong>children</strong>  &#x21d2; <tt>Object</tt>  <span class="extras">(readonly)</span>
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Incompatibilities with Shoes:</p>
+<ul class="incompatibility">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'><p>Shoes uses #content, not #children, for this</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+5
+6
+7</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lacci/lib/shoes/widgets/slot.rb', line 5</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_children'>children</span>
+  <span class='ivar'>@children</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+
+  <div id="instance_method_details" class="method_details_list">
+    <h2>Instance Method Details</h2>
+
+    
+      <div class="method_details first">
+  <h3 class="signature first" id="add_child-instance_method">
+  
+    #<strong>add_child</strong>(child)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Do not call directly, use set_parent</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+17
+18
+19
+20</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lacci/lib/shoes/widgets/slot.rb', line 17</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_add_child'>add_child</span><span class='lparen'>(</span><span class='id identifier rubyid_child'>child</span><span class='rparen'>)</span>
+  <span class='ivar'>@children</span> <span class='op'>||=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+  <span class='ivar'>@children</span> <span class='op'>&lt;&lt;</span> <span class='id identifier rubyid_child'>child</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="app-instance_method">
+  
+    #<strong>app</strong> { ... } &#x21d2; <tt><span class='object_link'><a href="App.html" title="Shoes::App (class)">Shoes::App</a></span></tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Calling stack.app or flow.app will execute the block
+with the Shoes::App as self, and with that stack or
+flow as the current slot.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Yields:</p>
+<ul class="yield">
+  
+    <li>
+      
+      
+        <span class='type'></span>
+      
+      
+      
+        
+        <div class='inline'><p>the block to call with the Shoes App as self</p>
+</div>
+      
+    </li>
+  
+</ul>
+<p class="tag_title">Returns:</p>
+<ul class="return">
+  
+    <li>
+      
+      
+        <span class='type'>(<tt><span class='object_link'><a href="App.html" title="Shoes::App (class)">Shoes::App</a></span></tt>)</span>
+      
+      
+      
+        &mdash;
+        <div class='inline'><p>the Shoes app</p>
+</div>
+      
+    </li>
+  
+</ul>
+<p class="tag_title">Incompatibilities with Shoes:</p>
+<ul class="incompatibility">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'><p>Shoes Classic will only change self
+via this method, while Scarpe will also change self
+with the other Slot Manipulation methods: #clear,</p>
+
+<h1 id="append-prepend-before-and-after">append, #prepend, #before and #after.</h1>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+39
+40
+41
+42</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lacci/lib/shoes/widgets/slot.rb', line 39</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_app'>app</span><span class='lparen'>(</span><span class='op'>&amp;</span><span class='id identifier rubyid_block'>block</span><span class='rparen'>)</span>
+  <span class='const'><span class='object_link'><a href="../Shoes.html" title="Shoes (module)">Shoes</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="App.html" title="Shoes::App (class)">App</a></span></span><span class='period'>.</span><span class='id identifier rubyid_instance'><span class='object_link'><a href="App.html#instance-class_method" title="Shoes::App.instance (method)">instance</a></span></span><span class='period'>.</span><span class='id identifier rubyid_with_slot'>with_slot</span><span class='lparen'>(</span><span class='kw'>self</span><span class='comma'>,</span> <span class='op'>&amp;</span><span class='id identifier rubyid_block'>block</span><span class='rparen'>)</span> <span class='kw'>if</span> <span class='id identifier rubyid_block_given?'>block_given?</span>
+  <span class='const'><span class='object_link'><a href="../Shoes.html" title="Shoes (module)">Shoes</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="App.html" title="Shoes::App (class)">App</a></span></span><span class='period'>.</span><span class='id identifier rubyid_instance'><span class='object_link'><a href="App.html#instance-class_method" title="Shoes::App.instance (method)">instance</a></span></span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="append-instance_method">
+  
+    #<strong>append</strong> { ... } &#x21d2; <tt>void</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p class="note returns_void">This method returns an undefined value.</p><p>Call the block to append new children to a Slot.</p>
+
+<p>Should only be called on a Slot, since only Slots can have children.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Yields:</p>
+<ul class="yield">
+  
+    <li>
+      
+      
+        <span class='type'></span>
+      
+      
+      
+        
+        <div class='inline'><p>the block to call to replace children; will be called on the Shoes::App, appending to the called Slot as the current slot</p>
+</div>
+      
+    </li>
+  
+</ul>
+<p class="tag_title">Incompatibilities with Shoes:</p>
+<ul class="incompatibility">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'><p>Shoes Classic calls the append block with current self, while Scarpe uses the Shoes::App as self</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+69
+70
+71
+72
+73
+74</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lacci/lib/shoes/widgets/slot.rb', line 69</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='op'>&amp;</span><span class='id identifier rubyid_block'>block</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_raise'>raise</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>append requires a block!</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='kw'>unless</span> <span class='id identifier rubyid_block_given?'>block_given?</span>
+  <span class='id identifier rubyid_raise'>raise</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>Don&#39;t append to something that isn&#39;t a slot!</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span> <span class='kw'>unless</span> <span class='kw'>self</span><span class='period'>.</span><span class='id identifier rubyid_is_a?'>is_a?</span><span class='lparen'>(</span><span class='const'><span class='object_link'><a href="../Shoes.html" title="Shoes (module)">Shoes</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="" title="Shoes::Slot (class)">Slot</a></span></span><span class='rparen'>)</span>
+
+  <span class='const'><span class='object_link'><a href="../Shoes.html" title="Shoes (module)">Shoes</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="App.html" title="Shoes::App (class)">App</a></span></span><span class='period'>.</span><span class='id identifier rubyid_instance'><span class='object_link'><a href="App.html#instance-class_method" title="Shoes::App.instance (method)">instance</a></span></span><span class='period'>.</span><span class='id identifier rubyid_with_slot'>with_slot</span><span class='lparen'>(</span><span class='kw'>self</span><span class='comma'>,</span> <span class='op'>&amp;</span><span class='id identifier rubyid_block'>block</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="clear-instance_method">
+  
+    #<strong>clear</strong> { ... } &#x21d2; <tt>void</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p class="note returns_void">This method returns an undefined value.</p><p>Remove all children from this widget. If a block
+is given, call the block to replace the children with
+new contents from that block.</p>
+
+<p>Should only be called on Slots, which can
+have children.</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+<p class="tag_title">Yields:</p>
+<ul class="yield">
+  
+    <li>
+      
+      
+        <span class='type'></span>
+      
+      
+      
+        
+        <div class='inline'><p>The block to call to replace the contents of the widget (optional)</p>
+</div>
+      
+    </li>
+  
+</ul>
+<p class="tag_title">Incompatibilities with Shoes:</p>
+<ul class="incompatibility">
+  
+    <li>
+      
+      
+      
+      
+        
+        <div class='inline'><p>Shoes Classic calls the clear block with current self, while Scarpe uses the Shoes::App as self</p>
+</div>
+      
+    </li>
+  
+</ul>
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+55
+56
+57
+58
+59</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lacci/lib/shoes/widgets/slot.rb', line 55</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_clear'>clear</span><span class='lparen'>(</span><span class='op'>&amp;</span><span class='id identifier rubyid_block'>block</span><span class='rparen'>)</span>
+  <span class='ivar'>@children</span><span class='period'>.</span><span class='id identifier rubyid_dup'>dup</span><span class='period'>.</span><span class='id identifier rubyid_each'>each</span><span class='lparen'>(</span><span class='op'>&amp;</span><span class='symbol'>:destroy</span><span class='rparen'>)</span>
+  <span class='id identifier rubyid_append'>append</span><span class='lparen'>(</span><span class='op'>&amp;</span><span class='id identifier rubyid_block'>block</span><span class='rparen'>)</span> <span class='kw'>if</span> <span class='id identifier rubyid_block_given?'>block_given?</span>
+  <span class='kw'>nil</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="contents-instance_method">
+  
+    #<strong>contents</strong>  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Get a list of child widgets</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+23
+24
+25
+26</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lacci/lib/shoes/widgets/slot.rb', line 23</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_contents'>contents</span>
+  <span class='ivar'>@children</span> <span class='op'>||=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+  <span class='ivar'>@children</span><span class='period'>.</span><span class='id identifier rubyid_dup'>dup</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+      <div class="method_details ">
+  <h3 class="signature " id="remove_child-instance_method">
+  
+    #<strong>remove_child</strong>(child)  &#x21d2; <tt>Object</tt> 
+  
+
+  
+
+  
+</h3><div class="docstring">
+  <div class="discussion">
+    <p>Do not call directly, use set_parent</p>
+
+
+  </div>
+</div>
+<div class="tags">
+  
+
+</div><table class="source_code">
+  <tr>
+    <td>
+      <pre class="lines">
+
+
+8
+9
+10
+11
+12
+13
+14</pre>
+    </td>
+    <td>
+      <pre class="code"><span class="info file"># File 'lacci/lib/shoes/widgets/slot.rb', line 8</span>
+
+<span class='kw'>def</span> <span class='id identifier rubyid_remove_child'>remove_child</span><span class='lparen'>(</span><span class='id identifier rubyid_child'>child</span><span class='rparen'>)</span>
+  <span class='ivar'>@children</span> <span class='op'>||=</span> <span class='lbracket'>[</span><span class='rbracket'>]</span>
+  <span class='kw'>unless</span> <span class='ivar'>@children</span><span class='period'>.</span><span class='id identifier rubyid_include?'>include?</span><span class='lparen'>(</span><span class='id identifier rubyid_child'>child</span><span class='rparen'>)</span>
+    <span class='ivar'>@log</span><span class='period'>.</span><span class='id identifier rubyid_warn'>warn</span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&quot;</span><span class='tstring_content'>remove_child: no such child(</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_child'>child</span><span class='period'>.</span><span class='id identifier rubyid_inspect'>inspect</span><span class='embexpr_end'>}</span><span class='tstring_content'>) for parent(</span><span class='embexpr_beg'>#{</span><span class='id identifier rubyid_parent'>parent</span><span class='period'>.</span><span class='id identifier rubyid_inspect'>inspect</span><span class='embexpr_end'>}</span><span class='tstring_content'>)!</span><span class='tstring_end'>&quot;</span></span><span class='rparen'>)</span>
+  <span class='kw'>end</span>
+  <span class='ivar'>@children</span><span class='period'>.</span><span class='id identifier rubyid_delete'>delete</span><span class='lparen'>(</span><span class='id identifier rubyid_child'>child</span><span class='rparen'>)</span>
+<span class='kw'>end</span></pre>
+    </td>
+  </tr>
+</table>
+</div>
+    
+  </div>
+
+</div>
+
+      <div id="footer">
+  Generated on Fri Aug 18 12:01:26 2023 by
+  <a href="https://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.34 (ruby-3.2.0).
+</div>
+
+    </div>
+  </body>
+</html>
